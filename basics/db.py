@@ -6,6 +6,6 @@ cur = con.cursor()
 # res.fetchall()
 
 # make a table
-cur.execute("CREATE TABLE students(id, name, cgpa)")
+# cur.execute("CREATE TABLE students(id, name, cgpa)")
 res = cur.execute("SELECT * FROM students")
-res.fetchall()
+print(res.fetchall())

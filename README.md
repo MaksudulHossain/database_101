@@ -2,7 +2,7 @@
 Learning database
 
 ## How to create a table in Python
-```
+```Python
 import sqlite3
 con = sqlite3.connect("tutorial.db")
 cur = con.cursor()
@@ -12,7 +12,7 @@ res.fetchall()
 ```
 
 ## How to create a table in SQL
-```
+```SQL
 CREATE TABLE movie(title, year, score)
 SELECT * FROM movie
 ```
